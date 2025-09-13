@@ -37,7 +37,7 @@ export default function HomePage() {
       </section>
 
       {/* Recent Transactions Section */}
-      <section className='space-y-4'>
+      {/* <section className='space-y-4'>
         <h2 className='text-3xl font-semibold'>Recent Transactions</h2>
         <p className='text-gray-300'>
           View your last few expenses and quickly edit or delete if needed.
@@ -70,7 +70,7 @@ export default function HomePage() {
             </tbody>
           </table>
         </div>
-      </section>
+      </section> */}
 
       {/* Action Buttons */}
       <section className='space-y-2 text-center'>

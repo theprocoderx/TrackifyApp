@@ -19,7 +19,7 @@ body {
   }
   /* home directives */
   .home-container {
-    @apply mt-10 min-h-screen space-y-12 rounded-sm bg-gradient-to-r from-sky-950 to-blue-950 p-6 text-white md:p-12;
+    @apply mt-10 space-y-12 rounded-sm bg-gradient-to-r from-sky-950 to-blue-950 p-6 text-white md:p-12;
   }
   /* AboutUs directives */
   .aboutUs-button {
@@ -39,7 +39,7 @@ body {
 
   /* app directives */
   .app-main {
-    @apply mx-auto flex min-h-[calc(100vh-11rem)] max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-2 sm:p-6 md:flex-row md:py-8;
+    @apply mx-auto flex max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-2 sm:p-6 md:flex-row md:py-8;
   }
 
   /* sidebar directives */
@@ -73,6 +73,6 @@ body {
     @apply cursor-pointer bg-gradient-to-r from-sky-700 to-indigo-500 p-2 hover:from-indigo-700 hover:to-blue-700;
   }
   .svg-arrow {
-    @apply mx-1 ml-auto cursor-pointer fill-current text-white transition-transform duration-300 ease-in-out hover:scale-125 hover:text-indigo-900 active:translate-y-1;
+    @apply mx-1 ml-auto cursor-pointer rounded-xl fill-current text-white transition-transform duration-300 ease-in-out hover:scale-125 hover:bg-violet-500 active:translate-y-1 sm:h-6 sm:w-6 sm:p-1;
   }
 }

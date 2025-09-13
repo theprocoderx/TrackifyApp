@@ -89,7 +89,9 @@ export default function ExpenseForm({
 
   return (
     <div className='form-container'>
-      <h1 className='mb-5 text-2xl font-bold'>Add Expense</h1>
+      <h1 className='mb-5 text-2xl font-bold'>
+        {editingRowId ? 'Update Details' : 'Add Expense'}
+      </h1>
       <form className='' onSubmit={handleSubmit}>
         <Input
           label='Title'

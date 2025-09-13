@@ -5,7 +5,7 @@ export default function Header() {
     <header className='header'>
       <div className='container mx-auto flex items-center justify-between px-1 sm:px-2'>
         {/* Logo / App Name */}
-        <h1 className='text-xl font-bold sm:text-2xl'>Todo App</h1>
+        <h1 className='text-xl font-bold sm:text-2xl'>Expense Tracker</h1>
 
         {/* Navigation */}
         <nav>
