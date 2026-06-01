@@ -4,8 +4,13 @@
 
 Simple aur responsive **Expense Tracker Application** built with **React.js (Vite)**, jo users ko expenses add, manage, filter aur track karne mein madad karta hai.
 
-🔗 **Live Demo:** https://mstrackify.netlify.app/  
-📂 **GitHub Repository:** https://github.com/Magan248/TrackifyApp
+## 🔗 Important Links
+
+🌐 Live Site: https://mstrackify.netlify.app/
+💻 GitHub Profile: https://github.com/maganstackforge
+📂 Project Repository: https://github.com/maganstackforge/TrackifyApp
+👤 LinkedIn: https://linkedin.com/in/maganstackforge
+📧 Email: magan.stackforge@gmail.com
 
 ---
 
@@ -139,9 +144,3 @@ npm run dev
 👨‍💻 Author
 
 Magan Singh
-
-🌐 Portfolio: https://mstrackify.netlify.app/
-
-💼 LinkedIn: https://www.linkedin.com/in/magan248
-
-💻 GitHub: https://github.com/Magan248
