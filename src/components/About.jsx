@@ -30,11 +30,15 @@ export default function About() {
             </p>
 
             <div className='flex justify-center gap-4 lg:justify-start'>
-              <a href='#contact' className='aboutUs-button'>
+              <a
+                href='mailto:procoderxs@gmail.com'
+                target='_blank'
+                className='aboutUs-button'
+              >
                 Contact Me
               </a>
               <a
-                href='https://github.com/Magan248'
+                href='https://github.com/theprocoderx'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='aboutUs-button px-4'
