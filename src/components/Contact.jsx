@@ -15,7 +15,7 @@ export default function Contact() {
           <div className='space-y-4'>
             <p>
               <span className='font-semibold'>📧 Email:</span>{' '}
-              magan.netlify@gmail.com
+              procoderxs@gmail.com
             </p>
             <p>
               <span className='font-semibold'>📱 Phone:</span> +91-9838684946
@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
           <div className='mt-6 flex gap-4'>
             <a
-              href='https://github.com/Magan248'
+              href='https://github.com/theprocoderx'
               target='_blank'
               rel='noopener noreferrer'
               className='contact-button'
@@ -35,7 +35,7 @@ export default function Contact() {
               GitHub
             </a>
             <a
-              href='https://www.linkedin.com/in/magan248'
+              href='https://www.linkedin.com/in/procoderx'
               target='_blank'
               rel='noopener noreferrer'
               className='contact-button'
