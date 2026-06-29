@@ -1,16 +1,17 @@
 # 💰 MS Trackify – Expense Tracker App
 
-[![Stars](https://img.shields.io/github/stars/Magan248/TrackifyApp?style=social)](https://github.com/Magan248/TrackifyApp/stargazers)
+[![Stars](https://img.shields.io/github/stars/theprocoderx/TrackifyApp?style=social)](https://github.com/theprocoderx/TrackifyApp/stargazers)
 
-Simple aur responsive **Expense Tracker Application** built with **React.js (Vite)**, jo users ko expenses add, manage, filter aur track karne mein madad karta hai.
+A simple and responsive Expense Tracker Application built with React.js (Vite) that helps users add, manage, filter, and track their daily expenses efficiently.
 
 ## 🔗 Important Links
 
-🌐 Live Site: https://mstrackify.netlify.app/
-💻 GitHub Profile: https://github.com/maganstackforge
-📂 Project Repository: https://github.com/maganstackforge/TrackifyApp
-👤 LinkedIn: https://linkedin.com/in/maganstackforge
-📧 Email: magan.stackforge@gmail.com
+🌐 Live Demo: https://mstrackify.netlify.app/
+📂 Repository: https://github.com/theprocoderx/TrackifyApp
+👨‍💻 Portfolio: https://procoderx.com
+🐙 GitHub: https://github.com/theprocoderx
+💼 LinkedIn: https://linkedin.com/in/procoderx
+📧 Email: procoderxs@gmail.com
 
 ---
 
@@ -23,7 +24,7 @@ TrackifyApp/
 │ └── favicon.webp
 ├── src/
 │ ├── assets/
-│ └── screenshots/
+│ ├── screenshots/
 │ ├── components/
 │ │ ├── About.jsx
 │ │ ├── Contact.jsx
@@ -46,65 +47,23 @@ TrackifyApp/
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
-├── tailwind.config.js ← agar Tailwind use kar rahe ho
+├── tailwind.config.js
 ├── vite.config.js
 └── README.md
 
 ---
 
-## 🚀 Features
-
-• Quick Add: Category, Title aur Amount ke sath naye expenses jodein.
-
-• Context Menu Management: Table par click karke expenses ko asaani se Edit & Delete karein.
-
-• Smart Filtering: Expenses ko category ke basis par filter karein.
-
-• Advanced Sorting: Alphabetically ya Amount ke basis par data sort karein (with Clear Sort option).
-
-• Data Persistence: Browser close hone par bhi data safe rahega (LocalStorage integrated).
-
-**Fully Responsive Design:**
-Seamless layout across all devices, from large desktops to mobile screens.
-
 ## 🛠️ Tech Stack
 
-• Frontend: React.js (Vite)
-
-• Styling: TailwindCSS
-
-• State & Logic: Custom React Hooks (useFilter, useLocalStorage)
-
-• Storage: LocalStorage API
-
-• Code Quality: ESLint & Prettier
+- **Frontend:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **State & Logic:** Custom React Hooks (`useFilter`, `useLocalStorage`)
+- **Storage:** LocalStorage API
+- **Code Quality:** ESLint & Prettier
 
 ---
 
-## ⚙️ Getting Started
-
-1. Repository clone karo:
-
-   ```bash
-   git clone [https://github.com/maganstackforge/TrackifyApp.git](https://github.com/maganstackforge/TrackifyApp.git)
-
-   ```
-
-# Project directory me jao:
-
-    cd TrackifyApp
-
-# Dependencies install karo:
-
-npm install
-
-# Development server run karo:
-
-npm run dev
-
-# Browser me http://localhost:5173/home
-
-📸 Screenshots
+## 📸 Screenshots
 
 **Home Page**
 ![HomePage](src/assets/screenshots/DesktopHome.png)
@@ -127,27 +86,81 @@ npm run dev
 **Contact Us in Mobile View**
 ![MobileContactPage](src/assets/screenshots/MobileContact.png)
 
-## 📜 Version Control & Contribution
+---
 
-- Project is maintained with **Git & GitHub** using proper version control practices.
-- Authentic and meaningful commit messages are used throughout development.
-- Example commit types:
-  - `feat:` → 'Create \_redirect file in public folder'
-  - `fix:` → for bug fixes
-  - `refactor:` → refactor: rename sidebar file for consistency
-  - `style:` → update sidebar padding and button color
-  - `test:` → for adding/updating tests
-  - `chore:` → 'remove tableDemo.jsx and lazy import file and images and remove unused styles'
+## 🚀 Features
 
-📌Future Enhancements
-• [x] 🔐 User Authentication (Login/Signup via Firebase or Auth0)
+- Quickly add expenses with category, title, and amount
+- Manage expenses using edit and delete options
+- Filter expenses by category
+- Sort data by name or amount with a reset option
+- Persist expense data using LocalStorage
+- Fully responsive design for desktop, tablet, and mobile devices
 
-• [x] 📤 Export data to CSV/PDF
+---
 
-• [x] 📊 Rich Interactive Analytics (Graphs & Charts using Recharts)
+## ⚙️ Getting Started
 
-• [x] 🌙 Dark Mode Support
+### 1. Clone the repository
 
-👨‍💻 Author
+```bash
+git clone https://github.com/theprocoderx/TrackifyApp.git
+```
 
-Magan Singh
+### 2. Navigate to the project folder
+
+```bash
+cd TrackifyApp
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173/home
+```
+
+---
+
+## 📜 Version Control
+
+This project is managed using **Git** and **GitHub** with a structured commit history following conventional commit conventions.
+
+**Common commit types:**
+
+- `feat:` – Add a new feature
+- `fix:` – Fix bugs
+- `refactor:` – Improve code structure without changing functionality
+- `style:` – Update UI or code formatting
+- `test:` – Add or update tests
+- `chore:` – Perform maintenance tasks
+
+---
+
+## 📌 Future Enhancements
+
+- [ ] User Authentication (Firebase/Auth0)
+- [ ] Export Expense Data to CSV/PDF
+- [ ] Interactive Analytics Dashboard (Recharts)
+- [ ] Dark Mode Support
+
+---
+
+## 👨‍💻 Author
+
+**Magan Singh**
+
+Frontend Developer Intern at Namrata Universal (Nov 2025 – Present)
+
+MCA Graduate | React.js | JavaScript | Tailwind CSS
